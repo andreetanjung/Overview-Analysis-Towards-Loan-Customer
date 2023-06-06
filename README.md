@@ -2,9 +2,13 @@
 ### Knowing The Characteristic Of Customers That Eligible For Loan
 
 Nama: Andrian Tanjung
+
 Bacth: HCK 004
+
 Link dashboard: https://public.tableau.com/app/profile/andrian5182/viz/Talent_16860269292150/Dashboard1
+
 Judul Project: Hacktiv8 Talent Fair 2023
+
 Short description: Objective dari notebook ini adalah untuk mengetahui bagaimana sebuah perusahaan loan memilih customer mana yang cocok untuk diterima peminjamannya. Dan juga untuk menentukan features apa saja yang berpengaruh pada algoritma mesin learning.
 
 Kesimpulan:
