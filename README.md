@@ -5,7 +5,7 @@ Nama: Andrian Tanjung
 
 Bacth: HCK 004
 
-Link dashboard: https://public.tableau.com/app/profile/andrian5182/viz/Talent_16860269292150/Dashboard1
+Link dashboard: https://public.tableau.com/app/profile/andrian5182/viz/EligibleLoanDashboard/Dashboard1?publish=yes
 
 Judul Project: Hacktiv8 Talent Fair 2023
 
