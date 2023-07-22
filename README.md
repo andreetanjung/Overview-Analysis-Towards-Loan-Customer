@@ -17,9 +17,11 @@ The data was obtained by academic competition and has been uploaded as `lion-loa
 - Dependents with 0 and 2 have a lower loan value than others.
 
 According to the exploratory data analysis, the most dominant trait is credit history, followed by income and dependents. More than 70% of people with good credit history are approved for loans. However, the random forest machine learning model shows different results, as we can see below.
-
+![image](https://github.com/andreetanjung/Overview-Analysis-Towards-Loan-Customer/assets/123824152/8df6dd20-ae54-475a-95f6-7ea974d43beb)
 
 ### Project Insight on Real Life Business
 The average income and loan amount are not significantly different between loan status Yes and No at first glance. However, the average value determines which one passes and which one does not. In the business world, of course, what we can measure is numerically, and these insignificant differences will certainly have a significant impact on the company's profit if the number of customers is large.
-
+### Directory Structure and Brief Description of Files
+`Hacktiv8 Talent Fair 2023.ipynb` is a Jupyter notebook that contains the complete project code, including data pre-processing, feature engineering, and evaluation.
+### Tableau Dashboard
 Link dashboard: https://public.tableau.com/app/profile/andrian5182/viz/EligibleLoanDashboard/Dashboard1?publish=yes
