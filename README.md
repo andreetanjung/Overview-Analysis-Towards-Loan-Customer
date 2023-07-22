@@ -1,21 +1,25 @@
 # Overview-Analysis-Towards-Loan-Customer
-### Knowing The Characteristic Of Customers That Eligible For Loan
+### Project Overview
+In this project, we will explore the characteristic traits of approved loan customers. We will look for any traits that have a dominant effect on whether a customer's loan is approved. At the end of the exploratory data analysis, we will create a dashboard with spider charts to showcase the differences between approved and rejected customers.
 
-Nama: Andrian Tanjung
+The objective of this notebook is to understand how a loan company chooses which customers are eligible for a loan. We will also determine which features are most important in the machine learning algorithm.
+### Data
+The data was obtained by academic competition and has been uploaded as `lion-loan-train.csv`
+### Methodology
+- Preprocessing: making sure all the missing data was taken care of and handling outliers
+- Exploratory data: find the correlation relevant data by chart visualization
+- Feature engineering: using random forest machine lerning to compare the feature selection
+### Result and Evaluation
+- The high income of the applicant and coapplicant, if any, is not the main factor for getting a loan. However, it is known that the minimum income figure for obtaining a loan is 5446.
+- Credit history is the most significant factor in the acceptance of a loan. This may be due to knowledge of the individual's characteristics regarding previous loans.
+- The loan amount above the average of 149 is likely to be rejected. This can be seen in individuals living in rural areas, who tend to borrow above the average.
+- Gender does not have a major impact on loans, but married, self-employed, and education have a slight impact on loan acceptance. Individuals who are married, self-employed, and graduates tend to borrow above the average loan amount.
+- Dependents with 0 and 2 have a lower loan value than others.
 
-Bacth: HCK 004
+According to the exploratory data analysis, the most dominant trait is credit history, followed by income and dependents. More than 70% of people with good credit history are approved for loans. However, the random forest machine learning model shows different results, as we can see below.
+
+
+### Project Insight on Real Life Business
+The average income and loan amount are not significantly different between loan status Yes and No at first glance. However, the average value determines which one passes and which one does not. In the business world, of course, what we can measure is numerically, and these insignificant differences will certainly have a significant impact on the company's profit if the number of customers is large.
 
 Link dashboard: https://public.tableau.com/app/profile/andrian5182/viz/EligibleLoanDashboard/Dashboard1?publish=yes
-
-Judul Project: Hacktiv8 Talent Fair 2023
-
-Short description: Objective dari notebook ini adalah untuk mengetahui bagaimana sebuah perusahaan loan memilih customer mana yang cocok untuk diterima peminjamannya. Dan juga untuk menentukan features apa saja yang berpengaruh pada algoritma mesin learning.
-
-Kesimpulan:
-- Tingginya income seorang applicant dan coapplicant jika ada, tidak menjadikan faktor utama untuk mendapatkan pinjaman. Namun diketahui bahwa minimum angka income untuk seorang dapat mendapatkan pinjaman adalah 5446
-- Credit history adalah faktor yang paling signifikan terhadap dapatnya pinjaman. Mungkin disebabkan oleh mengetahui bagaimana karakteristik individu tersebut terhadap pinjaman-pinjaman sebelumnya.
-- Loan amount diatas rata-rata 149 kemungkinan besar akan dilakukan penolakan, hal ini dapat terlihat pada individu yang tinggal didaerah Rural area dimana melakukan peminjaman diatas rata-rata
-- Gender tidak berpengaruh besar terdahap pinjaman, tetapi Married, Self_Employed, Education berpengaruh sedikit terhadap penerimaan pinjaman karena dimana individu yang Married, merupakan Self_employed dan Graduate cenderung meminjam diatas rata-rata loan amount.
-- Dependents dengan 0 dan 2 sebagaimana mempunyai nilai pinjaman yang lebih kecil ketimbang dari yang lainnya.
-
-Rata-rata income dan pinjaman tidak berbeda jauh antara Loan_Status Yes dan No secara kasat mata, namun nilai rata-rata itu mementukan mana yang lolos atau tidak. Implementasi dalam dunia bisnis, tentunya yang dapat kita ukur adalah secara numerik, dan perbedaan yang tidak signifikan tersebut tentunya akan sangat berpengaruh terhadap profit perusahaan jika total customer nya yang besar.
